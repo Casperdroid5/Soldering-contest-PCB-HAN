@@ -1,0 +1,22 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 587f84df-7548-4de1-98c9-1ef97aef5aa6)
+
+  (paper "A4")
+
+  (title_block
+    (title "Soldering contest PCB HAN")
+    (date "2022-11-18")
+    (rev "V0.1")
+    (company "HAN ")
+    (comment 1 "Designed by: Casper R. Tak")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
