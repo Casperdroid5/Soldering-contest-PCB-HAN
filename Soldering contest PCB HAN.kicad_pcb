@@ -5970,6 +5970,9 @@
   (gr_text "A\n" (at 141.318 83.656) (layer "F.SilkS") (tstamp cc2a31c1-3266-48e2-bdc3-b8adaa299b24)
     (effects (font (size 1 1) (thickness 0.15)))
   )
+  (gr_text "TODO:\n\n-shrink the pcb to 8x8 cm\n-choose battery type\n-find a spot for battery holder\n-choose resistors based on battery voltage\n-add voltage limits to silkscreen" (at 73.66 63.5) (layer "F.SilkS") (tstamp ff493a30-4fb3-436c-b53b-c82508b0b746)
+    (effects (font (size 1 1) (thickness 0.15)) (justify left))
+  )
 
   (segment (start 143 97.052) (end 139.7 97.052) (width 0.3) (layer "F.Cu") (net 1) (tstamp 31b69c8e-ea44-4cc9-848f-0638c485f29c))
   (segment (start 143.7 96.352) (end 143 97.052) (width 0.3) (layer "F.Cu") (net 1) (tstamp 52fa3d8d-3646-44ee-a408-bf0b48a8ca6c))
