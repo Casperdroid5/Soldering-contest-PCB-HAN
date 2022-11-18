@@ -612,7 +612,7 @@
     (property "Value" "2N3904" (id 1) (at 113.665 84.4549 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_TO_SOT_THT:TO-92_Inline" (id 2) (at 113.665 85.09 0)
+    (property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide" (id 2) (at 113.665 85.09 0)
       (effects (font (size 1.27 1.27) italic) (justify left) hide)
     )
     (property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF" (id 3) (at 108.585 83.185 0)
@@ -704,7 +704,7 @@
     (property "Value" "10k" (id 1) (at 102.235 58.4199 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical" (id 2) (at 97.917 57.15 90)
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" (id 2) (at 97.917 57.15 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 99.695 57.15 0)
@@ -815,7 +815,7 @@
       (reference "Q1") (unit 1) (value "2N3904") (footprint "Package_TO_SOT_SMD:SOT-23_Handsoldering")
     )
     (path "/0fd58cd3-0637-4e39-b339-0859c358a065"
-      (reference "Q2") (unit 1) (value "2N3904") (footprint "Package_TO_SOT_THT:TO-92_Inline")
+      (reference "Q2") (unit 1) (value "2N3904") (footprint "Package_TO_SOT_THT:TO-92_Inline_Wide")
     )
     (path "/d18fc897-0878-42f5-b8a2-449363703de6"
       (reference "R1") (unit 1) (value "2k2") (footprint "Resistor_SMD:R_01005_0402Metric_Pad0.57x0.30mm_HandSolder")
@@ -824,7 +824,7 @@
       (reference "R2") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/5fd75fa8-c971-4180-8d4d-419bf5fd463a"
-      (reference "R3") (unit 1) (value "10k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical")
+      (reference "R3") (unit 1) (value "10k") (footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical")
     )
     (path "/22a04216-54cb-44fe-9b76-e181b36e1a9f"
       (reference "R4") (unit 1) (value "2k2") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
