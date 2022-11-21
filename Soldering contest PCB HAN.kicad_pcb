@@ -1527,7 +1527,7 @@
     (pad "2" thru_hole circle (at 2.54 0 90) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask)
       (net 9 "Net-(D1-Pad2)") (pinfunction "A") (pintype "passive") (tstamp 4dbbe1c4-5ebb-4e09-9495-7f2d59f27b11))
     (model "${KIPRJMOD}/packages3D/LED_D5.0mm_Clear.wrl"
-      (offset (xyz 0 0 0))
+      (offset (xyz 0 0 -3))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )

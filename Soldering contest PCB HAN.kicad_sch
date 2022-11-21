@@ -745,7 +745,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid dacd57e8-ca58-4e76-ae8e-029f614e5e91)
   )
-  (text "Switching frequency: Hz" (at 93.345 99.695 0)
+  (text "Switching frequency: 3.4Hz" (at 92.075 99.695 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid f6e4590f-cd63-406c-9761-4445de4dfed8)
   )
