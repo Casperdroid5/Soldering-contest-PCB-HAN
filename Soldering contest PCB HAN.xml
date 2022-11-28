@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\crtak\Documents\Projecten\Soldering contest PCB HAN\Solder-contest-PCB-HAN\Soldering contest PCB HAN.kicad_sch</source>
+    <date>28/11/2022 10:49:19</date>
+    <tool>Eeschema (6.0.6)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Soldering contest PCB HAN</title>
+        <company>HAN </company>
+        <rev>V0.2</rev>
+        <date>2022-11-21</date>
+        <source>Soldering contest PCB HAN.kicad_sch</source>
+        <comment number="1" value="Designed by: Casper R. Tak"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="BT1">
+      <value>Battery_Cell</value>
+      <footprint>Battery:BatteryHolder_Keystone_3002_1x2032</footprint>
+      <libsource lib="Device" part="Battery_Cell" description="Single-cell battery"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Soldering contest PCB HAN.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ff5ddebd-fa0b-425a-8582-07d48577659b</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>10uF 16V</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Soldering contest PCB HAN.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5c87c882-b6f1-48af-94eb-8b3a9c0bcf0b</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>10uF 16V</value>
+      <footprint>Capacitor_THT:CP_Radial_D4.0mm_P2.00mm</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Soldering contest PCB HAN.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>034eabb7-3f77-44d1-8a01-2675ee937952</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Soldering contest PCB HAN.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a7db6a88-2520-428c-8049-3d1f48bb4462</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D5.0mm_Clear</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Soldering contest PCB HAN.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>007cf9ca-568a-495d-bdcf-3b4e025b88a0</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_4.3mm_M4</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Soldering contest PCB HAN.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a56f4f37-3859-41b2-a969-dc810cea9776</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_4.3mm_M4</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Soldering contest PCB HAN.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>33cbc48d-7a21-48d6-b9b7-57e0684786a6</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Screw_Terminal_01x02</value>
+      <footprint>TerminalBlock:TerminalBlock_bornier-2_P5.08mm</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Soldering contest PCB HAN.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0fe9d6fd-bdce-4016-adb7-83a4c7c35634</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>BC817</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23_Handsoldering</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BC817_SER.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="2N3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Soldering contest PCB HAN.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6b424259-f8a0-4482-996c-adc9565aa863</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>2N3904</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline_Wide</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/2N3903-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="2N3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Soldering contest PCB HAN.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0fd58cd3-0637-4e39-b339-0859c358a065</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Soldering contest PCB HAN.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d18fc897-0878-42f5-b8a2-449363703de6</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>470k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Soldering contest PCB HAN.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5eba335f-f9b7-4f96-8244-9f11f5b02fc1</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>470k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Soldering contest PCB HAN.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5fd75fa8-c971-4180-8d4d-419bf5fd463a</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>330</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Soldering contest PCB HAN.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>22a04216-54cb-44fe-9b76-e181b36e1a9f</tstamps>
+    </comp>
+    <comp ref="S1">
+      <value>SWITCH-SPDT-PTH-11.6X4.0MM-KIT</value>
+      <footprint>SnapEDA Library:SW_1825159-1</footprint>
+      <fields>
+        <field name="Field4">SWCH-08261</field>
+      </fields>
+      <libsource lib="SparkFun-Switches" part="SWITCH-SPDT-PTH-11.6X4.0MM-KIT" description="Single Pole, Double Throw (SPDT) Switch Single-pole, double-throw (SPDT) switch. &lt;h4&gt;Variant Overview&lt;/h4&gt;&lt;h5&gt;SMD-AYZ0202&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/597&quot;&gt;Surface Mount DPDT Switch&lt;/a&gt; (COM-00597)&lt;/li&gt;&lt;li&gt;Used on e.g. &lt;a href=&quot;https://www.sparkfun.com/products/12049&quot;&gt;LilyPad Arduino USB - ATmega32U4 Board&lt;/a&gt;&lt;/ul&gt;&lt;h5&gt;PTH-11.6X4.0MM&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/102&quot;&gt;SPDT Mini Power Switch&lt;/a&gt; (COM-00102)&lt;/li&gt;&lt;li&gt;Used on e.g. &lt;a href=&quot;https://www.sparkfun.com/products/10547&quot;&gt;SparkFun Simon Says - Through-Hole Soldering Kit&lt;/a&gt; (KIT-10547)&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;PTH-11.6X4.0MM-KIT&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;KIT version of SPDT Mini Power Switch - Simplifies soldering by removing tStop of switch pins - only one side can be soldered.&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;PTH-11.6X4.0MM-LOCK&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;LOCK version of SPDT Mini Power Switch - Offset pins hold switch in place for easier soldering.&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;SMD-RIGHT-ANGLE&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/10860&quot;&gt;Surface Mount Right Angle Switch&lt;/a&gt; (COM-10860)&lt;/li&gt;&lt;li&gt;Used on e.g. &lt;a href=&quot;https://www.sparkfun.com/products/13231&quot;&gt;SparkFun ESP8266 Thing&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;"/>
+      <property name="Field4" value="SWCH-08261"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Soldering contest PCB HAN.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6502d947-661b-4d45-91f3-16aac5eae88a</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Screw_Terminal_01x02">
+      <description>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Battery_Cell">
+      <description>Single-cell battery</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery_Cell</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="SparkFun-Switches" part="SWITCH-SPDT-PTH-11.6X4.0MM-KIT">
+      <description>Single Pole, Double Throw (SPDT) Switch Single-pole, double-throw (SPDT) switch. &lt;h4&gt;Variant Overview&lt;/h4&gt;&lt;h5&gt;SMD-AYZ0202&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/597"&gt;Surface Mount DPDT Switch&lt;/a&gt; (COM-00597)&lt;/li&gt;&lt;li&gt;Used on e.g. &lt;a href="https://www.sparkfun.com/products/12049"&gt;LilyPad Arduino USB - ATmega32U4 Board&lt;/a&gt;&lt;/ul&gt;&lt;h5&gt;PTH-11.6X4.0MM&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/102"&gt;SPDT Mini Power Switch&lt;/a&gt; (COM-00102)&lt;/li&gt;&lt;li&gt;Used on e.g. &lt;a href="https://www.sparkfun.com/products/10547"&gt;SparkFun Simon Says - Through-Hole Soldering Kit&lt;/a&gt; (KIT-10547)&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;PTH-11.6X4.0MM-KIT&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;KIT version of SPDT Mini Power Switch - Simplifies soldering by removing tStop of switch pins - only one side can be soldered.&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;PTH-11.6X4.0MM-LOCK&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;LOCK version of SPDT Mini Power Switch - Offset pins hold switch in place for easier soldering.&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;SMD-RIGHT-ANGLE&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/10860"&gt;Surface Mount Right Angle Switch&lt;/a&gt; (COM-10860)&lt;/li&gt;&lt;li&gt;Used on e.g. &lt;a href="https://www.sparkfun.com/products/13231"&gt;SparkFun ESP8266 Thing&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+      <footprints>
+        <fp>*SWITCH_SPDT_PTH_11.6X4.0MM_KIT*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">SWITCH-SPDT-PTH-11.6X4.0MM-KIT</field>
+        <field name="Footprint">SWITCH_SPDT_PTH_11.6X4.0MM_KIT</field>
+        <field name="Field4">SWCH-08261</field>
+      </fields>
+      <pins>
+        <pin num="1" name="O" type="passive"/>
+        <pin num="2" name="P" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="2N3904">
+      <description>0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92</description>
+      <docs>https://www.onsemi.com/pub/Collateral/2N3903-D.PDF</docs>
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">2N3904</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/2N3903-D.PDF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="SparkFun-Switches">
+      <uri>C:/Users/crtak/Documents/KiCad/6.0/Libraries/SparkFun-KiCad-Libraries-master/SparkFun-KiCad-Libraries-master/Libraries/SparkFun-Switches.lib</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Transistor_BJT.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="BT1" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="Q2" pin="1" pinfunction="E" pintype="passive"/>
+    </net>
+    <net code="2" name="Net-(BT1-Pad1)">
+      <node ref="BT1" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="S1" pin="1" pinfunction="O" pintype="passive"/>
+    </net>
+    <net code="3" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="4" name="Net-(C1-Pad2)">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="5" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(C2-Pad2)">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="S1" pin="2" pinfunction="P" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(J1-Pad2)">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="S1" pin="3" pinfunction="S" pintype="passive"/>
+    </net>
+  </nets>
+</export>
