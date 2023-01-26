@@ -6,8 +6,8 @@
 
   (title_block
     (title "Soldering contest PCB HAN")
-    (date "2022-11-21")
-    (rev "V0.2")
+    (date "2023-01-26")
+    (rev "V0.3")
     (company "HAN ")
     (comment 1 "Designed by: Casper R. Tak")
   )
@@ -968,7 +968,7 @@
     (property "Reference" "Q1" (id 0) (at 92.71 79.3749 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "BC817" (id 1) (at 92.71 81.9149 0)
+    (property "Value" "BC817R" (id 1) (at 92.71 81.9149 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering" (id 2) (at 92.71 82.55 0)
@@ -1105,7 +1105,7 @@
       (reference "J1") (unit 1) (value "Screw_Terminal_01x02") (footprint "TerminalBlock:TerminalBlock_bornier-2_P5.08mm")
     )
     (path "/6b424259-f8a0-4482-996c-adc9565aa863"
-      (reference "Q1") (unit 1) (value "BC817") (footprint "Package_TO_SOT_SMD:SOT-23_Handsoldering")
+      (reference "Q1") (unit 1) (value "BC817R") (footprint "Package_TO_SOT_SMD:SOT-23_Handsoldering")
     )
     (path "/0fd58cd3-0637-4e39-b339-0859c358a065"
       (reference "Q2") (unit 1) (value "2N3904") (footprint "Package_TO_SOT_THT:TO-92_Inline_Wide")
